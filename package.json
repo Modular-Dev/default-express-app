@@ -1,0 +1,58 @@
+{
+  "name": "default-express-app",
+  "version": "0.0.1",
+  "description": "common express app settings",
+  "homepage": "git@github.com:Modular-Dev/default-express-app.git",
+  "author": {
+    "name": "Fritz G. Batroni",
+    "email": "fritz.g.batroni@gmail.com",
+    "url": "https://fritzbatroni.wordpress.com/"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "node functions",
+    "common",
+    "library",
+    "express"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "coffee-script": "^1.12.7",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-mocha": "^4.3.1",
+    "gulp-nsp": "^2.4.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "repository": "Modular-Dev/default-express-app",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "start": "gulp",
+    "test": "./scripts/run_test.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cookie-encrypter": "^0.2.3",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^1.3.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "helmet": "^3.8.2",
+    "jsonwebtoken": "^8.0.1",
+    "mod-dev-logger": "github:modular-dev/mod-dev-logger",
+    "moment": "^2.18.1"
+  }
+}
